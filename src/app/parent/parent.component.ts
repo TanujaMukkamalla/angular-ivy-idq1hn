@@ -9,6 +9,10 @@ export class ParentComponent implements OnInit {
 
   constructor() { }
   data= "im from parent";
+ran="";
+  emittingfunc($event){
+this.ran=$event;
+  }
 
   ngOnInit() {
   }
